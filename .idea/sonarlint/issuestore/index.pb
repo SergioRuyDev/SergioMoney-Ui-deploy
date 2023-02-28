@@ -1,8 +1,6 @@
 
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-Q
-!src/app/pessoas/pessoa.service.ts,8/5/85316c8e327abaf4a701702b51577786f4728555
 K
 src/app/core/core.module.ts,a/2/a245fed19740379f4df1e0a2b500595cbd9d78e1
 I
@@ -11,18 +9,12 @@ W
 'src/app/categories/categoria.service.ts,6/a/6a4fa44fcd586aefc56d7bb26f8f6ed35e281640
 X
 (src/app/core/nao-autorizado.component.ts,8/1/8123b61712970898ec39ab5a88fceb08bb0d0a21
-_
-/src/app/core/pagina-nao-encontrada.component.ts,d/c/dcc0a28a84d54a64cce6cdc272c67a954536f0fc
 \
 ,src/app/shared/message/message.component.css,3/2/32023607a05720313bdf808e5dd6493b31ceded7
 [
 +src/app/shared/message/message.component.ts,7/2/721b915da911ff365d892c8340b5e760d5af85fe
 X
 (src/app/core/navbar/navbar.component.css,d/d/ddeeeb4770435214d6cdc38153bde8886802c0b3
-Q
-!src/app/pessoas/pessoas.module.ts,d/6/d654fe8b52698f005c8cf67e4cd85faf1c2022f6
-W
-'src/app/core/navbar/navbar.component.ts,1/1/11b9a4f674829d3aa946039d28175041eb7c368d
 [
 +src/app/seguranca/money-http-interceptor.ts,a/8/a8f575597b4cc6f4d3f2bb0b1173b246fd3145e0
 e
@@ -31,14 +23,6 @@ f
 6src/app/seguranca/login-form/login-form.component.html,0/7/07bb4ea5c691fb7d3dd96bac852b5edf07ac6712
 O
 src/app/seguranca/auth.guard.ts,e/b/ebe48bf7bb1896fba0015d950cc93fcb9c72dcef
-Q
-!src/app/seguranca/auth.service.ts,4/6/46b3e9b0620e7f84961971dd27cd61ed4622cecb
-b
-2src/app/dashboard/dashboard/dashboard.component.ts,6/7/67657966e3ba6942800abc14b58c6eb549d08399
-d
-4src/app/dashboard/dashboard/dashboard.component.html,8/f/8f3730494c067d78fe281a9d067077d6affa49ea
-|
-Lsrc/app/lancamentos/lancamentos-pesquisa/lancamentos-pesquisa.component.html,a/0/a05684b3cf55ffe0cdf3f170517c7715213dddad
 V
 &node_modules/@angular/forms/index.d.ts,a/e/ae9a26cd3d7b95118215e7d4681e3de9e86b0362
 c
@@ -47,11 +31,11 @@ y
 Isrc/app/lancamentos/lancamento-cadastro/lancamento-cadastro.component.css,0/7/07fa3b173efc80a4f7b7e4bf259efed0599de1ca
 >
 src/styles.css,6/f/6f9d98ca6b2005fc0cd4b0f000b670b16bf3c496
-Y
-)src/app/core/navbar/navbar.component.html,e/8/e892b7f7da46c8d50a6f385979ebdc041f2f7fe2
-J
-src/app/app.component.html,0/6/06895b2dfff011115a8eded7e3fad29788965566
 ]
 -src/app/shared/message/message.component.html,d/1/d14dde1c9b5df3eb454316d79db5a3b0d33924af
 >
 src/index.html,5/c/5c975582791da6f060261188096d6aad85db6e09
+z
+Jsrc/app/lancamentos/lancamento-cadastro/lancamento-cadastro.component.html,0/6/0611672a6a9645f9fabd0d36af351afb8966873e
+x
+Hsrc/app/lancamentos/lancamento-cadastro/lancamento-cadastro.component.ts,e/5/e50e1c21644651f4f6f1dc8ad7a471b2d96170c3
