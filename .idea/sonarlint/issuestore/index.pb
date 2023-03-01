@@ -19,8 +19,6 @@ X
 +src/app/seguranca/money-http-interceptor.ts,a/8/a8f575597b4cc6f4d3f2bb0b1173b246fd3145e0
 e
 5src/app/seguranca/login-form/login-form.component.css,4/5/454636cf6c82efa2c754be53ec556b01ee4e8698
-f
-6src/app/seguranca/login-form/login-form.component.html,0/7/07bb4ea5c691fb7d3dd96bac852b5edf07ac6712
 O
 src/app/seguranca/auth.guard.ts,e/b/ebe48bf7bb1896fba0015d950cc93fcb9c72dcef
 V
@@ -39,3 +37,9 @@ z
 Jsrc/app/lancamentos/lancamento-cadastro/lancamento-cadastro.component.html,0/6/0611672a6a9645f9fabd0d36af351afb8966873e
 x
 Hsrc/app/lancamentos/lancamento-cadastro/lancamento-cadastro.component.ts,e/5/e50e1c21644651f4f6f1dc8ad7a471b2d96170c3
+O
+src/environments/environment.ts,9/e/9e665cec867bbf89b5afc6420722808938387dc4
+T
+$src/environments/environment.prod.ts,c/7/c7c271980f0e24b4ca8172b2c15322f125123fad
+V
+&src/app/dashboard/dashboard.service.ts,e/c/ecd2929166284f42761d4b37280b6ad5dadd7f59

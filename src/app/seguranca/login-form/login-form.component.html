@@ -19,7 +19,11 @@
                 <button pButton type="submit" label="Login" [disabled]="loginForm.invalid"
                     (click)="login(usuario.value, senha.value); senha.value='';"></button>
             </div>
-
+            <div class="col-14 p-fluid">
+                <div class="d-flex justify-content-center links" style="color: #2C3E50;">
+                    <p>Take a look with username: guest password: guest</p>
+                </div>
+            </div>
         </div>
     </form>
 
