@@ -1,15 +1,15 @@
 <div class="grid">
     <div class="col-12">
-        <button pButton label="Novo" icon="pi pi-plus" type="button" class="p-button-raised p-button-text"
+        <button pButton label="New" icon="pi pi-plus" type="button" class="p-button-raised p-button-text"
             (click)="prepararNovoContato()"></button>
     </div>
     <div class="col-12">
         <p-table [value]="contatos" [responsive]="true">
             <ng-template pTemplate="header">
                 <tr>
-                    <th>Nome</th>
+                    <th>Name</th>
                     <th>E-mail</th>
-                    <th>Telefone</th>
+                    <th>Phone</th>
                     <th class="col-acoes-header"></th>
                 </tr>
             </ng-template>
@@ -20,10 +20,10 @@
                     <td>{{ contato.email }}</td>
                     <td>{{ contato.telefone }}</td>
                     <td class="col-acoes">
-                        <button pButton icon="pi pi-pencil" type="button" pTooltip="Editar" tooltipPosition="top"
+                        <button pButton icon="pi pi-pencil" type="button" pTooltip="Edit" tooltipPosition="top"
                             (click)="prepararEdicaoContato(contato, rowIndex)"></button>
 
-                        <button pButton icon="pi pi-trash" type="button" pTooltip="Excluir" tooltipPosition="top"
+                        <button pButton icon="pi pi-trash" type="button" pTooltip="Delete" tooltipPosition="top"
                             (click)="removerContato(rowIndex)"></button>
                     </td>
                 </tr>
@@ -32,7 +32,7 @@
             <ng-template pTemplate="emptymessage">
                 <tr>
                     <td colspan="4">
-                        Nenhum contato cadastrado
+                        No contact registered
                     </td>
                 </tr>
             </ng-template>
@@ -40,14 +40,14 @@
     </div>
 </div>
 
-<p-dialog [header]="editando ? 'Edição Contato' : 'Novo Contato'" [(visible)]="exbindoFormularioContato" [modal]="true"
+<p-dialog [header]="editando ? 'Edit Contact' : 'New Contact'" [(visible)]="exbindoFormularioContato" [modal]="true"
     *ngIf="contato" [style]="{width: '70vw'}">
     <form #frmContato="ngForm" (ngSubmit)="confirmarContato(frmContato)">
         <div class="col-12 p-fluid">
-            <label>Nome</label>
+            <label>Name</label>
             <input pInputText type="text" name="nome" required [(ngModel)]="contato.nome" #contatoNome="ngModel" />
 
-            <app-message [control]="contatoNome.control" error="required" text="Informe o nome"></app-message>
+            <app-message [control]="contatoNome.control" error="required" text="Inform the name"></app-message>
         </div>
 
         <div class="col-12 p-fluid">
@@ -55,17 +55,17 @@
             <input pInputText type="email" name="email" required email [(ngModel)]="contato.email"
                 #contatoEmail="ngModel" />
 
-            <app-message [control]="contatoEmail.control" error="required" text="Informe o email"></app-message>
-            <app-message [control]="contatoEmail.control" error="email" text="Informe um e-mail válido"></app-message>
+            <app-message [control]="contatoEmail.control" error="required" text="Inform the email"></app-message>
+            <app-message [control]="contatoEmail.control" error="email" text="Inform a valid e-mail"></app-message>
         </div>
 
         <div class="col-12 p-fluid">
-            <label>Telefone</label>
+            <label>Phone</label>
             <p-inputMask name="telefone" [(ngModel)]="contato.telefone" mask="(99) 99999-999?9"></p-inputMask>
         </div>
 
         <div class="col-12">
-            <button pButton type="submit" label="Confirmar" [disabled]="frmContato.invalid"></button>
+            <button pButton type="submit" label="Confirm" [disabled]="frmContato.invalid"></button>
         </div>
     </form>
 </p-dialog>
